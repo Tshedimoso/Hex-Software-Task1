@@ -1,0 +1,187 @@
+
+#bio p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  
+}
+
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+
+.skills-left,
+.skills-right {
+  flex: 1;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 60px;
+}
+
+
+.experience-entry {
+  margin-bottom: 20px;
+}
+
+.experience-entry h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.experience-entry p {
+  line-height: 2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.branding h1 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.branding .pink {
+  color: #e32989;
+}
+
+
+.horizontal-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.horizontal-menu a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.horizontal-menu a:hover {
+  color: #e32989;
+}
+
+
+section {
+  padding: 60px 5%;
+  margin: 60px auto;
+  border: 2px solid #e32989;
+  border-radius: 6px;
+  background: #fff;
+}
+
+
+#home {
+  text-align: center;
+  padding: 60px 60px;
+}
+
+#home .intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#home .intro p {
+  font-size: 1.2rem;
+  color: #e32989;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #e32989;
+  object-fit: cover;
+}
+
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+
+a {
+  color: #e32989;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  padding: 20px; 
+  background-color: #f9f9f9;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 40px;
+  border: 2px solid #e32989;
+  border-radius: 6px;
+  background: #fff;
+}
+
